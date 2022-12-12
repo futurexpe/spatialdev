@@ -65,6 +65,16 @@ You can also deploy the ARM template via this template
 
 Once deployment is done, the data will start flowing into the real time PowerBI dashboard. Now you can set up the Dashboard.
 
+1. Select the custom streaming data from the listed tiles.
+
+<img src="1.RealTimePowerBI/image1.png"/>
+
+2. Select the dataset name provided in the template and configure it to create the tile.
+
+3. Modify the tile settings as desired to visualize the Person Count and Person Count latency
+
+<img src="1.RealTimePowerBI/image2.png"/>
+
 ## Contributing
 
 This project welcomes contributions and suggestions.  Most contributions require you to agree to a
