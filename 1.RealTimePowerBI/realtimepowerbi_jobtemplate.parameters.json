@@ -1,0 +1,77 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "ASAApiVersion": {
+      "value": "2017-04-01-preview"
+    },
+    "StreamAnalyticsJobName": {
+      "value": "null"
+    },
+    "Location": {
+      "value": "Central US"
+    },
+    "OutputStartMode": {
+      "value": "JobStartTime"
+    },
+    "OutputStartTime": {
+      "value": "yyyy-dd-mmT00:00:00Z"
+    },
+    "DataLocale": {
+      "value": "en-US"
+    },
+    "OutputErrorPolicy": {
+      "value": "Stop"
+    },
+    "EventsLateArrivalMaxDelayInSeconds": {
+      "value": 5
+    },
+    "EventsOutOfOrderMaxDelayInSeconds": {
+      "value": 0
+    },
+    "EventsOutOfOrderPolicy": {
+      "value": "Adjust"
+    },
+    "StreamingUnits": {
+      "value": 3
+    },
+    "CompatibilityLevel": {
+      "value": "1.2"
+    },
+    "TagValues": {
+      "value": {
+        "hidden-link:/Microsoft.StreamAnalytics/streamingjobs/settings": "{\"createdFrom\":\"CICD\"}"
+      }
+    },
+    "ContentStoragePolicy": {
+      "value": "SystemAccount"
+    },
+    "Input_powerbieventhub2_serviceBusNamespace": {
+      "value": "null"
+    },
+    "Input_powerbieventhub2_eventHubName": {
+      "value": "null"
+    },
+    "Input_powerbieventhub2_consumerGroupName": {
+      "value": "null"
+    },
+    "Input_powerbieventhub2_authenticationMode": {
+      "value": "Msi"
+    },
+    "Output_e2etestpowerbi2_groupId": {
+      "value": "subscription_id"
+    },
+    "Output_e2etestpowerbi2_groupName": {
+      "value": "subscription_name"
+    },
+    "Output_e2etestpowerbi2_authenticationMode": {
+      "value": "Msi"
+    },
+    "Output_e2etestpowerbi2_dataSet": {
+      "value": "null"
+    },
+    "Output_e2etestpowerbi2_table": {
+      "value": "null"
+    }
+  }
+}
